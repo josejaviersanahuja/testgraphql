@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+
+button {
+  height: 30px;
+  align-self: center;
+}
+.App-header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  min-height: 100vh;
+  justify-content: center;
+  
+}
+
+.App-link {
+  color: #61dafb;
+  grid-column: 2/4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
